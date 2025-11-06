@@ -20,10 +20,8 @@ export const metadata: Metadata = {
 const locales = ["en", "fr"];
 export default async function Layout({
   children,
-  params,
 }: Readonly<{
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
 }>) {
   //const { locale } = await params;
   //  const local = await getLocale();
